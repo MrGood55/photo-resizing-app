@@ -64,15 +64,3 @@ if __name__ == '__main__':
 
 
 
-
-
-    # print(os.getcwd().split('\\')[0:-1])
-    # print('\\'.join(os.getcwd().split('\\')))
-
-    # previous_dir = '\\'.join(file_path.split('\\')[0:1])
-    # print(previous_dir)
-    # print(file_path.split('/')[0:-2])
-    # os.mkdir('lol')
-
-
-
