@@ -13,11 +13,10 @@ class Form(QMainWindow):
         self.width = width
         self.height = height
 
-    def get_directory_element_path(self):  # <-----
+    def get_directory_element_path(self):  
         return QFileDialog.getExistingDirectory(self, "Выбрать папку", ".")
 
-    def get_file_path(self):  # <-----
-        # return QFileDialog.getExistingDirectory(self, "Выбрать папку", ".")
+    def get_file_path(self):  
         return QFileDialog.getOpenFileName(self, "Выбрать файл", ".")[0]
 
     def config_photo_size(self,element_path):
@@ -52,7 +51,7 @@ class Form(QMainWindow):
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     ex = Form()
-    #
+    
     # ##one
     # file_path = ex.get_file_path()
     # ex.config_photo_size(file_path)
